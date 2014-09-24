@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{The Objective}{2}{0}{1}
+\beamer@sectionintoc {2}{Background}{3}{0}{2}
+\beamer@sectionintoc {3}{Methodology}{10}{0}{3}
+\beamer@sectionintoc {4}{Results and Analysis}{16}{0}{4}
+\beamer@sectionintoc {5}{Post Mid Sem}{17}{0}{5}
+\beamer@sectionintoc {6}{Summary and Conclusion}{18}{0}{6}
