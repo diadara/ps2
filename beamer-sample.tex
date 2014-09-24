@@ -127,7 +127,7 @@ How does that work?
     \end{frame}
 
     \begin{frame}{Syncing data}
-      \includegraphics[height=0.8\textheight]{sync}
+       \includegraphics[height=0.8\textheight]{sync}
     \end{frame}
     
     
@@ -139,18 +139,56 @@ How does that work?
     \begin{frame}{Results}
       \includegraphics[width=0.8\textwidth]{aggregate}
     \end{frame}
+    \begin{frame}{Binary comparison aggregate for a user}
+      \includegraphics[width=0.8\textwidth]{result_binary}
+    \end{frame}
+    \begin{frame}{Daily stats for a user}
+      \includegraphics[width=0.8\textwidth]{results_daily}
+    \end{frame}
     
     \section{Post Mid Sem}
     \begin{frame}{Current status and post midsem plans}
       \begin{itemize}
         \item Bug fixes for the end to end tester.
         \item A testing Suite for gateway devices.
-        \item A Simulation Suite for mocking houses, to be used with
+        \item A Simulation Suite for creating mock data , to be used with
           end to end tester
       \end{itemize}
 
     \end{frame}
     
+    \begin{frame}
+      {Test Suite for Gateway Device}
+      \begin{itemize}
+      \item Create mock data and feed it to a smart meter simulator.
+      \item Connect to the meter over serial interface and check
+        whether the data matches or not.
+      \item Poll the cloud api's to make sure that the data is sent to
+        cloud,
+      \item Create a comandline interface for doing all of this.
+      \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+      {Simulation Suite}
+      \begin{itemize}
+      \item Bidgely doesn't have too many houses with plug level
+        sensors.
+      \item The data from the available plug level sensors are often
+        contaminated.
+      \item Can the data be simulated?
+      \end{itemize}
+    \end{frame}
+
+    \begin{frame}{The Plan}
+      \begin{itemize}
+      \item Model different appliances from the available data.
+      \item The model should be designed to be tweakable to simulate
+        different variations of appliances.
+      \item The simulated appliances could be added up to simulate a
+        house's load signal.
+      \end{itemize}
+    \end{frame}
     \section
         {Summary and Conclusion}
 
